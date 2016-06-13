@@ -27,7 +27,7 @@ xtabs(~type, data_bl)
 # By group
 data.plot = ggplot(data, 
                    aes(x = group, y = rt)) + geom_boxplot()
-pdf("figures/data.pdf")
+pdf("./figures/data.pdf")
 data.plot
 dev.off()
 
